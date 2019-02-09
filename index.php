@@ -1,52 +1,78 @@
-<html>
-<head>
-<title>Contact Us</title>
-<link rel="stylesheet" type="text/css" href="form.css" />
-<link rel="stylesheet" href="myhome.css" type="text/css" />
+<?php include('header.php') ?>
 
-
-</head>
-<body>
-<div class="left-side">
-
-<!-- Logo -->
-<div id="logo" style="width: 246px;">
-<a href="../index.php"><img src="../assets/image/adeza.png" alt="Adeza"></a>
-</div>
-
-
-
-<div class="contact-title">
-<h1>Contact Us</h1>
-</div>
-
-<div class="contact-form">
-<form id="contact-form" method="POST" action="contact-handler.php">
-<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <div class="container">
+<div class="row align-items-center h-100">
+<div class="col-md-5 mr-auto">
+<h1 class="fw-600">Accelerate business performance</h1>
 <br>
-<input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
-
-<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
-
-<input type="submit" class="form-control submit" value="SEND MESSAGE">
-</form>
+<p class="lead-2">a revolutionary all-in-one business suite to run your entire business.</p>
+<br><a class="btn btn-xl btn-primary btn-round" href="../pricing">View plans &amp; pricing</a></div>
+<div class="col-md-6"><img src="https://cdn.cloudonex.com/media/business-software-illustration.png" alt="..."></div>
+</div>
 </div>
 
+<section id="section-features" class="section" style="padding-bottom: 100px;">
+<div class="container"><header class="section-header text-center" style="padding-top: 40px; padding-bottom: 40px;">
+<h2>Now you can focus on what truly matters for your business!</h2>
+<p class="lead" style="font-size: 18px;">CloudOnex is engineered to scale with businesses as they grow. From advanced financials to sales to billing and beyond, CloudOnex provides the tools you need to accelerate growth and drive innovation swiftly and confidently.</p>
+</header>
+<div class="row gap-y">
+<div class="col-md-8 mx-auto mb-5"><img class="shadow-5" src="https://cdn.cloudonex.com/media/business-suite-dashboard-screenshot.jpg" style="-webkit-box-shadow: 0px 40px 60px 0px rgba(0, 11, 40, 0.16); box-shadow: 0px 40px 60px 0px rgba(0, 11, 40, 0.16); border-radius: 4px;" alt="..."></div>
+<div class="w-100"></div>
+<div class="col-md-6 col-xl-4">
+<div class="media mb-5">
+<div class="media-body">
+<h3>Accounting</h3>
+<p>Track your revenue &amp; make smarter decisions. Now you can have it all, for less.</p>
 </div>
-
-<div align="center">
-<ul>
-          <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><strong><span style="color:white;">Address</span></strong><span style="color:white;"> : No 8/2, Ulsoor Rd, Yellappa Chetty Layout, Ulsoor, Bengaluru, Karnataka 560042</span></li>
-          <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><strong><span style="color:white;">Email</span></strong>  : <a href="mailto:info@oswintechnologies.com">info@oswintechnologies.com</a></li>
-          <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><strong><span style="color:white;">Phone </span></strong><span style="color:white;"> : +91 9739327547</span></li>
-        </ul>
 </div>
-
-<div align="center">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.796588741816!2d77.619541!3d12.9751044!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8db72bf7edbf732a!2sNovel+Office!5e0!3m2!1sen!2sin!4v1549623249880" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
-
-
+<div class="col-md-6 col-xl-4">
+<div class="media mb-5">
+<div class="media-body">
+<h3>Sales</h3>
+<p>Sell smarter &amp; faster with integrated billing and sales tools.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-xl-4">
+<div class="media mb-5">
+<div class="media-body">
+<h3>Billing</h3>
+<p>Invoice customers and get paid online.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-xl-4">
+<div class="media">
+<div class="media-body">
+<h3>Purchases &amp; Orders</h3>
+<p>Manage purchased and orders in one single palce.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-xl-4">
+<div class="media mb-5">
+<div class="media-body">
+<h3>Customer Service</h3>
+<p>Offer customer service with built in Tickets and Knowledgebase.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-xl-4">
+<div class="media mb-5">
+<div class="media-body">
+<h3>Customer Portal &amp; CRM</h3>
+<p>View your customer 360 degree. And offer them to access, order your products and services online.</p>
+</div>
+</div>
+</div>
+<div class="col-12 text-center"><a class="btn btn-lg btn-primary" href="../business-suite">Learn more</a></div>
+</div>
+</div>
+</section>
 
 </body>
 </html>
+
+
